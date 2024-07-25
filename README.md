@@ -1,4 +1,4 @@
-# youtube-to-spotify
+# Instantly transfer a Youtube music Playlist to a Spotify music playlist
 
 A Python program to automate the transfer of a YouTube music playlist to a Spotify playlist. 
 
