@@ -10,10 +10,10 @@ YouTube playlist, copy the song title, paste the song title into Spotify, go thr
 ### Getting Spotify Authentication token
 1. You will first need to authenticate with the Spotify web API. To do this, you will need an access token. To get an access token, follow the instructions under “Getting Started” here: https://developer.spotify.com/documentation/web-api. Make sure to save this token.
 ### Downloading files
-2. Download the files, and put them all in one directory.
+2. Download the files `run.py`, `spotify_client.py`, `youtube_client.py` and put them all in one directory.
 ### Adding the Spotify Authentication token
 3. Open the terminal, and cd to the same directory with all the other project files.
-4. In the terminal write `export SPOTIFY_AUTH_TOKEN=<PASTE AUTH TOKEN HERE>` (paste your spotify auth token after the `=`), and press enter
+4. In the terminal write `export SPOTIFY_AUTH_TOKEN=<PASTE AUTH TOKEN HERE>` (paste your spotify auth token after the `=`), and press enter.
 ### Running the program
 5. In the terminal, Run the `run.py` file by typing `python run.py` and press enter.
 6. There should now be a URL in the terminal. Visit the URL to authorize your Google account for the YouTube data API.
