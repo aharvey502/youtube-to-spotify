@@ -1,4 +1,4 @@
-# Instantly transfer a Youtube music Playlist to a Spotify music playlist
+# Instantly transfer a YouTube music Playlist to a Spotify music playlist
 
 ## Description
 A Python program to automate the transfer of a YouTube music playlist to a Spotify playlist. 
@@ -15,10 +15,9 @@ YouTube playlist, copy the song title, paste the song title into Spotify, go thr
 3. Open the terminal, and cd to the same directory with all the other project files.
 4. In the terminal write `export SPOTIFY_AUTH_TOKEN=<PASTE AUTH TOKEN HERE>` (paste your spotify auth token after the `=`), and press enter.
 ### Running the program
-5. In the terminal, Run the `run.py` file by typing `python run.py` and press enter.
-6. There should now be a URL in the terminal. Visit the URL to authorize your Google account for the YouTube data API.
-7. Sign in with the Google account, and click continue until you see an authorization code.
-8. Once you see an authorization code, copy and paste it into your terminal where it prompts `Enter the authorization code:` and press enter.
-9. A numbered list of your YouTube playlists should appear (Ex. `0 My Music`). Type the number of the playlist you would like to transfer songs from where prompted `Enter your choice:` and press enter. The program will output which songs it added to the Spotify playlist.
-10. Open Spotify and your YouTube songs should now be added to your Spotify liked songs playlist!
+5. In the terminal, run the `run.py` file by typing `python run.py` and press enter.
+6. There should now be a URL in the terminal. Visit the URL to authorize your Google account for the YouTube data API. Sign in with the Google account, and click continue until you see an authorization code.
+7. Once you see an authorization code, copy and paste it into your terminal where it prompts `Enter the authorization code:` and press enter.
+8. A numbered list of your YouTube playlists should appear (Ex. `0 My Music`). Type the number of the playlist you would like to transfer songs from where prompted `Enter your choice:` and press enter. The program will output which songs it added to the Spotify playlist.
+9. Open Spotify and your YouTube songs should now be added to your Spotify liked songs playlist!
 
