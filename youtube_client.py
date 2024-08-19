@@ -60,7 +60,7 @@ class YoutubeClient(object):
         #Gets video data from each video in the response
         for item in response['items']:
             video_id = item['snippet']['resourceId']['videoId']
-            artist, track = self.get_artist_and_from_video(video_id)
+            artist, track = self.get_artist_and_track_from_video(video_id)
             if artist and track:
                 songs.append(Song(artist, track))
 
